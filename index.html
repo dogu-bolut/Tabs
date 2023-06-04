@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tabs</title>
+
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <section class="section">
+    <!-- title -->
+    <div class="title">
+      <h2>about</h2><br>
+      <p>Everything about my History, Vision and Goals</p>
+    </div>
+    <!-- center -->
+    <div class="about-center section-center">
+      <article class="about-img">
+        <img src="./hero-bcg.jpeg" alt="about picture">
+      </article>
+      <article class="about">
+        <!-- button container-->
+        <div class="btn-container">
+          <button class="tab-btn active" data-id="history">history</button>
+          <button class="tab-btn" data-id="vision">vision</button>
+          <button class="tab-btn" data-id="goals">goals</button>
+        </div>
+        <article class="about-content">
+          <!-- single item -->
+          <div class="content active" id="history">
+            <p>
+              My journey started with game development at my first year of university.
+              I liked a fact that I can play my games. My idea my rules right?. I could've make
+              a game about strugles of hero dog try to reach earth core. That drove me about
+              3 years and I enjoyed being a game developer but, when I take my head out of sand
+              I saw others game developers make hyper casual type boring games. I was set my goal
+              to work in world famous AAA Game Companies. One week lifespan Hyper Casual games
+              can't help me to achieve my dream work. I decided to learn how to earn a place
+              in AAA Game Companies. I choosed path of server developer which suits perfect
+              for me because I do love coding. This enlightment changed my way. I'm using
+              javascript now and learning nodeJs. One day I will be part of a company
+              of my dream work.
+            </p>
+          </div>
+          <!-- end of single item -->
+          <!-- single item -->
+          <div class="content" id="vision">
+            <p>
+              My vision about my career is gathered around self-improvement in job related skills.
+              I do believe who works hard and smart has better advantage in this area. I certainly
+              want to be coder who got respect from others and wise about every detail in job
+              description covers. My vision about future of this title will be more deeper than
+              now due to artificial intelligence and, hell yes i would love to see how far can computers
+              go. Even better then seeing their evolution is understanding and making adjustments in
+              that area.
+            </p>
+          </div>
+          <!-- end of single item -->
+          <!-- single item -->
+          <div class="content" id="goals">
+            <p>
+              My goal is fairly simple: "Having fun while work". My journey was mostly delightful
+              because I enjoyed to study and work as developer. It's not "wait for weekend" type
+              of job for me. Never will be if I wouldn't let it becomes to my burden. I would love
+              to make a good money of course. I would love to have a team to manage at some point.
+              But this are not primary, I will have the joy then rest will come automatically.
+            </p>
+          </div>
+          <!-- end of single item -->
+        </article>
+      </article>
+
+    </div>
+  </section>
+  <!-- javascript -->
+  <script src="app.js"></script>
+</body>
+
+</html>
